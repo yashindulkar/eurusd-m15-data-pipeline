@@ -1,0 +1,15 @@
+{
+  "selected_source": "histdata",
+  "source_detail": "HistData M1 OHLC aggregated to M15; raw timestamps interpreted as America/New_York local session time and converted to UTC; volume_or_tick_count is contributing M1 bar count, not real tick volume; spread unavailable.",
+  "requested_start": "2010-01-01",
+  "requested_end": "2026-07-08",
+  "raw_rows": 6043197,
+  "raw_duplicate_rows_removed": 360,
+  "final_m15_candles": 406945,
+  "final_duplicate_timestamps_removed": 0,
+  "first_timestamp": "2010-01-03T22:00:00Z",
+  "last_timestamp": "2026-06-26T20:45:00Z",
+  "spread_available": false,
+  "warnings": [],
+  "generated_at_utc": "2026-07-09T02:54:38.552109+00:00"
+}
