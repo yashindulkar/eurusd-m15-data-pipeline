@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Raw market-data downloads are reproducible but bulky and vendor-sourced.
+data/raw/**
+!data/raw/
+!data/raw/.gitkeep
+
+# Generated datasets/reports can be rebuilt from raw downloads.
+data/processed/*.csv
+data/processed/*.parquet
+data/reports/*.csv
+
+# Local scratch/output folders from Codex workspace use.
+work/
+outputs/
