@@ -1,0 +1,3 @@
+data/processed/*.csv linguist-generated
+data/processed/*.parquet binary
+data/reports/*.csv linguist-generated
